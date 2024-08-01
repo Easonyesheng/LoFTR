@@ -1,3 +1,11 @@
+'''
+Author: Easonyesheng preacher@sjtu.edu.cn
+Date: 2024-07-27 10:35:30
+LastEditors: Easonyesheng preacher@sjtu.edu.cn
+LastEditTime: 2024-07-27 14:51:26
+FilePath: /A2PM-MESA/point_matchers/LoFTR/configs/loftr/indoor/scannet/loftr_ds_eval_new.py
+Description: change path
+'''
 """ A config only for reproducing the ScanNet evaluation results.
 
 We remove border matches by default, but the originally implemented
@@ -10,7 +18,7 @@ to be consistent with the results in our paper.
 Update: This config is for testing the re-trained model with the pos-enc bug fixed.
 """
 
-from src.config.default import _CN as cfg
+from point_matchers.LoFTR.src.config.default import _CN as cfg
 
 cfg.LOFTR.COARSE.TEMP_BUG_FIX = True
 cfg.LOFTR.MATCH_COARSE.MATCH_TYPE = 'dual_softmax'

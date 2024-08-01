@@ -1,4 +1,4 @@
-from configs.data.base import cfg
+from point_matchers.LoFTR.configs.data.base import cfg
 
 TEST_BASE_PATH = "assets/scannet_test_1500"
 

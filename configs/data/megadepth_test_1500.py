@@ -1,4 +1,12 @@
-from configs.data.base import cfg
+'''
+Author: Easonyesheng preacher@sjtu.edu.cn
+Date: 2024-07-27 10:35:30
+LastEditors: Easonyesheng preacher@sjtu.edu.cn
+LastEditTime: 2024-07-27 14:52:28
+FilePath: /A2PM-MESA/point_matchers/LoFTR/configs/data/megadepth_test_1500.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
+from point_matchers.LoFTR.configs.data.base import cfg
 
 TEST_BASE_PATH = "assets/megadepth_test_1500_scene_info"
 
